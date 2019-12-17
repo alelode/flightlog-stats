@@ -1,0 +1,36 @@
+.outerContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.chartContainer {
+  border-radius: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 700px;
+  width: 1000px;
+}
+
+.chartSelectorContainer {
+  position: absolute;
+  right: 50px;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.chart {
+}
+
+.xAxisDropdown {
+  float: right;
+}
+.dataSourceDropdown {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dropdown {
+  width: 120px;
+}
